@@ -7,7 +7,7 @@
     <movie path="bin\beholder.swf" />
     <movie fps="30" />
     <movie width="800" />
-    <movie height="600" />
+    <movie height="450" />
     <movie version="3" />
     <movie minorVersion="1" />
     <movie platform="AIR" />
@@ -50,7 +50,8 @@
   </includeLibraries>
   <!-- SWC Libraries -->
   <libraryPaths>
-    <!-- example: <element path="..." /> -->
+    <element path="..\..\_geo\geocell\libs\Swiftsuspenders-v2.1.0.swc" />
+    <element path="..\..\_geo\geocell\libs\SFS2X_API_AS3.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>

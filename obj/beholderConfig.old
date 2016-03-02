@@ -16,13 +16,19 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'29.02.2016'</value>
+      <value>'02.03.2016'</value>
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
       <path-element>D:\_mars\_commandCell\beholder\src</path-element>
+      <path-element>D:\_mars\_geo\geocell\libs</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
+    <library-path append="true">
+      <path-element>D:\_mars\_geo\geocell\libs\Swiftsuspenders-v2.1.0.swc</path-element>
+      <path-element>D:\_mars\_geo\geocell\libs\SFS2X_API_AS3.swc</path-element>
+      <path-element>D:\_mars\_commandCell\beholder\lib\SFS2X_RedBox.swc</path-element>
+    </library-path>
   </compiler>
   <file-specs>
     <path-element>D:\_mars\_commandCell\beholder\src\ru\marstefo\beholder\Main.as</path-element>
@@ -31,6 +37,6 @@
   <default-frame-rate>30</default-frame-rate>
   <default-size>
     <width>800</width>
-    <height>600</height>
+    <height>450</height>
   </default-size>
 </flex-config>
